@@ -1,6 +1,29 @@
+
 site_name: Subnautica Data Framework
-theme: material
-copyright: GPLv3
+site_url: https://docs.sn2-sdf.dev/
+site_description: This site has all documentation necessary to create content mods using SDF
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+repo_url: https://github.com/LimoDerEchte/SDF-Docs/
 
 nav:
   - Home: index.md
