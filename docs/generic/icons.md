@@ -9,11 +9,11 @@ The item notation always consists off a specific type of icon and specific argum
 ## Icon Types
 This table contains all icon types. Additional information is available below.
 
-| Type    | Arguments                       | Description                                                        |
-|---------|---------------------------------|--------------------------------------------------------------------|
-| DEFAULT | None                            | The Alterra Cicada icon, usually used for placeholders in the game |
-| ITEM    | [Item Type](/generic/notations) | Uses the icon of a specific item type                              |
-| FILE    | [Subtype, Path](#File Type)     | Uses an icon from a user specified file                            |
+| Type    | Arguments                            | Description                                                        |
+|---------|--------------------------------------|--------------------------------------------------------------------|
+| DEFAULT | None                                 | The Alterra Cicada icon, usually used for placeholders in the game |
+| ITEM    | [Item Type](../generic/notations.md) | Uses the icon of a specific item type                              |
+| FILE    | [Subtype, Path](#file-type)          | Uses an icon from a user specified file                            |
 
 ### File Type
 ``FILE <Subtype> <Path>``

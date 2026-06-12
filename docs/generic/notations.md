@@ -3,6 +3,9 @@
 ## Item Types
 WIP
 
+## Scan Data
+WIP
+
 ## Crafting Recipes
 WIP
 

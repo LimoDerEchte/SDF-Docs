@@ -3,6 +3,8 @@ site_name: Subnautica Data Framework
 site_url: https://docs.sn2-sdf.dev/
 site_description: This site has all documentation necessary to create content mods using SDF
 
+repo_url: https://github.com/LimoDerEchte/SDF-Docs/
+
 theme:
   name: material
   palette:
@@ -23,11 +25,16 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 
-repo_url: https://github.com/LimoDerEchte/SDF-Docs/
-
 markdown_extensions:
   - toc:
       permalink: '#'
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 nav:
   - Home: index.md
