@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## About
+The Subnautica Data Framework, or SDF for short, is a project aiming at simplifying the process of making mods for Subnautica 2 as much as possible. It achieves this, by providing an easy to use, TOML based system of creating custom content, that requires minimal effort.
 
-## Commands
+If you want to get started with mod making, please consider heading to the `Getting Started` section next, starting with the [installation process](setup/installation.md) or the [project setup](setup/project.md).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Source Code
+You can access the [source code](https://github.com/LimoDerEchte/Subnautica2Mods) for SDF on GitHub under the GPLv3 license.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Any questions?
+If you have any questions about SDF, you can join the [Subnautica Modding Discord](https://discord.com/invite/subnautica-modding-324207629784186882) and ping `@.limo.` for help.
