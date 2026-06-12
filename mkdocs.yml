@@ -25,6 +25,10 @@ theme:
 
 repo_url: https://github.com/LimoDerEchte/SDF-Docs/
 
+markdown_extensions:
+  - toc:
+      permalink: '#'
+
 nav:
   - Home: index.md
   - Getting Started:
@@ -34,4 +38,5 @@ nav:
       - Crafting Recipes: data/recipes.md
       - Crafting Recipe Categories: data/recipe_categories.md
   - Generic Formats:
+      - Notations: generic/notations.md
       - Icon Notation: generic/icons.md
