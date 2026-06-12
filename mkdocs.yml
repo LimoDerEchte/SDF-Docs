@@ -1,1 +1,14 @@
-site_name: My Docs
+site_name: Subnautica Data Framework
+theme: material
+copyright: GPLv3
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: setup/installation.md
+      - Project Structure: setup/project.md
+  - Data Assets:
+      - Crafting Recipes: data/recipes.md
+      - Crafting Recipe Categories: data/recipe_categories.md
+  - Generic Formats:
+      - Icon Notation: generic/icons.md
