@@ -1,5 +1,5 @@
 # Crafting Recipes
-## Basic Recipes
+## Basic Crafting Recipes
 You can create recipes using a structure like this in any TOML file of the project:
 
 ```toml
@@ -28,7 +28,7 @@ OutputItemType = 1
 | icon                 | string | The recipes icon ([icon notation](../generic/icons.md))                                               |
 | crafting_time        | float  | The time it takes for this to craft in seconds - default to 2.0                                       |
 | available_in_lifepod | bool   | Marks if the recipe should be available in the lifepods fabricator                                    |
-| ordering_index       | int    | The ordering index is relevant for the order recipes are displayed                                    |
+| ordering_index       | int    | The ordering index is relevant for the order recipes are displayed in                                 |
 
 \* marks required attributes
 
@@ -65,7 +65,7 @@ id = "RecipeIdToModify"
 ```
 The recipe id follows the [recipe notation](../generic/notations.md#crafting-recipes).
 
-You can use fields from the standard `[[recipe]]` notation, to modify aspects of this item. The following attributes are available in addition to the standard ones:
+You can use fields from the standard `[[recipe]]` notation, to modify aspects of the category. The following attributes are available in addition to the standard ones:
 
 | Key                         | Type | Value                                                       |
 |-----------------------------|------|-------------------------------------------------------------|
