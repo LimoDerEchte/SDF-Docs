@@ -10,7 +10,8 @@ Mods/ExampleMod
 ├── enabled.txt
 ├── SDF
 │   ├── content.toml
-│   └── other_content.toml
+│   ├── other_content.toml
+│   └── SomeFolder
 │       └── content_in_folder.toml
 ```
 
