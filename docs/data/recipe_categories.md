@@ -26,6 +26,9 @@ id = "CategoryId"
 The attribute `crafted_by` can be one of the following:</br>
 `Fabricator, ModificationStation, Processor, BuilderTool, VehicleFabricator`
 
+## The parent category
+The parent category is the defining factor for where a category is located. If you want a new category in the main menu of any fabricator, you only have to set the `crafted_by` attribute to your desired fabricator. If you want to have your category inside another one, like the different subcategories in the fabricator, you will have to find out the [recipe category notation](../generic/notations.md#crafting-recipe-categories) for the specific parent category and use it as the `parent_category` attribute.
+
 ## Modifying Crafting Recipe Categories
 You can modify crafting recipe categories like this:
 ```toml
