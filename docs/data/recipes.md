@@ -46,7 +46,7 @@ set_id = "SetId"
 
 The set id is always required and has to be a string. Unlocking rules with the same set id will be combined during parsing.
 
-A recipe is unlocked by fully completing any given set of rules. For a set with the rule sets a and b, this means it unlocks the moment all conditions of either a or b are completed.
+A recipe is unlocked by fully completing any given set of rules. For a recipe with the rule sets a and b, this means it unlocks the moment all conditions of either a or b are completed.
 
 ### All entries under `[[recipe.unlocking_rule]]`
 At least one of these entries has to be present in any given rule.
