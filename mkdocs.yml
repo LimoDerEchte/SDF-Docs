@@ -41,6 +41,7 @@ nav:
   - Getting Started:
       - Installation: setup/installation.md
       - Project Structure: setup/project.md
+      - Examples: setup/examples.md
   - Data Assets:
       - Crafting Recipes: data/recipes.md
       - Crafting Recipe Categories: data/recipe_categories.md

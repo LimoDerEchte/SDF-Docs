@@ -16,6 +16,8 @@ Mods/ExampleMod
 ```
 
 ## Adding Content
+> If you are new to SDF modding, you might want to have a look at the [examples](examples.md)
+
 SDF will automatically scan for any enabled mods containing an SDF folder at launch. It will then recursively go through every SDF folder and find every .toml file that contains any SDF content. You can find more about the required syntax for said content in the following sections of this wiki:
 
 | Page                                                       | Content                                             |

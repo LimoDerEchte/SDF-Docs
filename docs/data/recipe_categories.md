@@ -19,7 +19,6 @@ id = "CategoryId"
 | parent_category | string | The categories parent category ([recipe category notation](../generic/notations.md#crafting-recipe-categories)) |
 | icon            | string | The categories icon ([icon notation](../generic/icons.md))                                                      |
 | ordering_index  | int    | The ordering index is relevant for the order recipe categories are displayed in                                 |
-| show_when_empty | bool   | Marks if the category should be visible, even when it has no recipes (WIP)                                      |
 
 \* marks required attributes
 
